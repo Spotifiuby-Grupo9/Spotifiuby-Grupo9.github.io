@@ -6,6 +6,6 @@
 
 ## Usuarios
 
-## Contenido
+## Contenidos
 
 ## Métricas
