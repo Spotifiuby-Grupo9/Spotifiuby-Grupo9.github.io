@@ -14,7 +14,7 @@ En esta sección se listan todos los contenidos de la aplicación mostrando su t
 
 Cuenta con las siguientes opciones:
 
-**(1)** Buscar contenidos por título ingresando lo que se desee buscar en la barra de búsqueda y apretando enter o presionasndo el botón de la lupa. En el ejemplo se muestran los contenidos que contienen 'The'. Aclaración: el filtro es case sensitive.
+**(1)** Buscar contenidos por título ingresando lo que se desee buscar en la barra de búsqueda y apretando enter o presionando el botón de la lupa. En el ejemplo se muestran los contenidos que contienen 'The'. Aclaración: el filtro es case sensitive.
 
 **(2)** Filtrar contenidos por tipo (álbum, canción o playlist). Por defecto se muestran todos, como se muestra en el ejemplo. 
  
@@ -34,6 +34,7 @@ En esta pantalla se lista la siguiente información del álbum:
 * Usuario del artista.
 * Descripción (en caso de que tenga).
 * Cantidad de favoritos.
+* Calificación y cantidad de opiniones.
 * Tipo de suscripción necesaria para acceder al álbum. Todas las canciones del álbum poseen su mismo tipo de suscripción.
 * Género.
 * Título de las canciones y los usuarios de los artistas colaboradores que posean.
@@ -57,7 +58,6 @@ En esta pantalla se lista la siguiente información de la canción:
 * Cantidad de favoritos.
 * Tipo de suscripción necesaria para acceder a la canción. Esta es la misma suscripción que la del álbum al que pertenece.
 * Género.
-* Título de las canciones y los usuarios de los artistas colaboradores que posean.
 * Comentarios con sus respectivos usuarios.
 
 Todos los nombres de usuario se pueden clickear para navegar a la pantalla [**Perfil**](#perfil), también el título del álbum para navegar a la pantalla [**Álbum**](#álbum).
@@ -78,9 +78,9 @@ En esta pantalla se lista la siguiente información de la playlist:
 * Usuarios de los colaboradores.
 * Título y usuario del artista de las canciones de la playlist, además del usuario de los colaboradores que posean.
 
-Todos los nombres de usuario se pueden clickear para navegar a la pantalla [**Perfil**](#perfil), también el título de las cancines para navegar a la pantalla [**Canción**](#canción).
+Todos los nombres de usuario se pueden clickear para navegar a la pantalla [**Perfil**](#perfil), también el título de las canciones para navegar a la pantalla [**Canción**](#canción).
 
-**Bloqueo de canción:** presionando el botón 'Bloquear' se bloqueará la playlist para que no sea visible para los usuarios de la aplicación móvil. Si la playlist se encuentra bloqueada, el botón cambiará a 'Desbloquear', y al presionarlo la playlist volverá a ser visible en la aplicación.
+**Bloqueo de playlist:** presionando el botón 'Bloquear' se bloqueará la playlist para que no sea visible para los usuarios de la aplicación móvil. Si la playlist se encuentra bloqueada, el botón cambiará a 'Desbloquear', y al presionarlo la playlist volverá a ser visible en la aplicación.
 
 ![Playlist](./assets/admin/playlist.png)
 
@@ -90,7 +90,7 @@ En esta sección se listan todos los usuarios de la aplicación mostrando su nom
 
 Cuenta con las siguientes opciones:
 
-**(1)** Buscar usuarios por nombre de usuario ingresando lo que se desee buscar en la barra de búsqueda y apretando enter o presionasndo el botón de la lupa. En el ejemplo se muestran los usuarios que contienen 'Me'. Aclaración: el filtro es case sensitive.
+**(1)** Buscar usuarios por nombre de usuario ingresando lo que se desee buscar en la barra de búsqueda y apretando enter o presionando el botón de la lupa. En el ejemplo se muestran los usuarios que contienen 'Me'. Aclaración: el filtro es case sensitive.
 
 **(2)** Filtrar usuarios por estado de la solicitud (aceptada o rechazada). Por defecto se muestran todos, como se muestra en el ejemplo. 
  
@@ -159,8 +159,8 @@ Acercando el mouse encima de los gráficos se puede ver el detalle para un día,
 
 ## Registro
 
-En esta sección se puede registrar un nuevo administrador ingresando con el email ingresado:
+En esta sección se puede registrar un nuevo administrador ingresando su email:
 
 ![Registro](./assets/admin/registro.png)
 
-En caso de registro exitoso, aparecerá un cartel donde se mostrará el email y la contraseña generada, con la opción de copiarla al portapales. Con esas credenciales se podrá ingresar a la plataforma. Para cerrar el cartel se puede clickear fuera del mismo.
+En caso de registro exitoso, aparecerá un cartel donde se mostrará el email y la contraseña generada, con la opción de copiarla al portapales. Con esas credenciales se podrá ingresar a la plataforma. Se puede cerrar el cartel clickeando fuera del mismo.
