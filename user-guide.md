@@ -33,3 +33,38 @@ Ademas en la parte inferior, se encuentra una barra de busqueda en donde podras 
 
 En esta pantalla se muestran las playlists que hayas creado y ademas todos los contenidos que hayas agregado a favoritos.
 Ademas se pueden crear nuevas playlists presionando **(1)**
+
+## Playlist
+<img src="./assets/user/playlist.png">
+
+Se muestran en orden de izquierda a derecha las pantallas de 'Nueva playlist', 'Ver playlist' y 'Editar playlist'.
+En la pantalla de ver playlist se muestran los contenidos de la playlist, ademas presionando **(1)** podemos editarla, presionando **(2)** podemos eliminarla y presionando **(3)** reproducirla.
+Luego, tanto en la pantalla de nueva playlist como en la de editar playlist, se puede ingresar informacion como foto de portada, titulo, descripción y canciones. Ademas de poder hacerla publica o de agregar personas como compartidos (los cuales seran los usuarios que podran ver y reproducir la playlist en caso de que la playlist no sea publica), o tambien como colaboradores (los cuales seran los usuarios que podran agregar contenido a la playlist y modificar informacion titulo, foto y descripcion).
+
+## Reproducción de contenido
+<p align="center">
+  <img src="./assets/user/playing.png" width="400">
+</p>
+
+En esta pantalla se mostrara la canción que se esta reproduciendo, ademas de la informacion de la cancion, artista y album. Tambien se podra controlar la reproducción de la canción presionando los botones de play, pause, anterior y siguiente. En la parte inferior se encuentra la sección en donde podras escribir un comentario sobre la cancion.
+
+## Perfil propio
+<img src="./assets/user/ownProfile.png">
+
+En la primera pantalla se muestra la información de tu perfil, ademas de 4 opciones las cuales son:
+  + **(1)** Editar perfil: Ingresar a la pantalla de edición de perfil.
+  + **(2)** Entrar en modo artista: Lo cual te permitira subir canciones y albumes a la plataforma.
+  + **(3)** Ver la wallet: En donde podras ver informacion de la wallet como el balance y las transacciones realizadas.
+  + **(4)** Cerrar sesión
+La segunda pantalla es la pantalla de edición de perfil, en donde podras editar tu nombre de usuario, nombre, apellido y foto. Ademas, presionando el boton de configuración, podras entrar a la tercera pantalla en donde podras modificar correo electronico y contraseña.
+
+## Suscripciones
+<img src="./assets/user/suscription.png">
+
+En esta pantalla se vera la información de tu suscripcion actual, ademas de la opcion de modificarla por alguna de las opciones disponibles.
+
+## Contenido del artista
+<img src="./assets/user/artist.png">
+
+En la primera pantalla, se ve el perfil de un artista el cual es posible seguirlo y enviarle un mensaje, ademas de una lista de todo los contenidos que tiene.
+En la segunda pantalla, se ve la vista de un album, en donde se ve informacion basica como titulo, artista, puntajes y una lista de todas las canciones que contiene. Ademas se puede agregar a favoritos presionando la estrella de favoritos al lado de la información, y dejar un comentario o un puntaje en la parte inferior.
