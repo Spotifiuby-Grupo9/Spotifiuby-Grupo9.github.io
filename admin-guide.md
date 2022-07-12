@@ -92,7 +92,7 @@ Cuenta con las siguientes opciones:
 
 **(1)** Buscar usuarios por nombre de usuario ingresando lo que se desee buscar en la barra de búsqueda y apretando enter o presionando el botón de la lupa. En el ejemplo se muestran los usuarios que contienen 'Me'. Aclaración: el filtro es case sensitive.
 
-**(2)** Filtrar usuarios por estado de la solicitud (aceptada o rechazada). Por defecto se muestran todos, como se muestra en el ejemplo. 
+**(2)** Filtrar usuarios por estado de la solicitud (pendientes, aceptados o rechazados). Por defecto se muestran todos, como se muestra en el ejemplo. 
  
 **(3)** Elegir el tamaño del paginado, que puede ser 10, 25 o 50. Por defecto es 10, como se muestra en el ejemplo. 
 
