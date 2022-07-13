@@ -10,7 +10,7 @@ Al iniciar la aplicación, se debe esperar a que los servicios de Spotifiby se i
 
 La pantalla de inicio es la pantalla principal de la aplicación, en ella podras ver algunos de tus artistas seguidos **(1)** y tus playlists **(2)**.
 Ademas, tambien podras ver la información de tu perfil **(3)** y la información de tu suscripción actual en donde podras modificarla **(4)**.
-En la barra inferior, hay una lista de opciones, en donde la primera es la seleccionada ya que corresponde a la pantalla de inicio, luego **(5)** es la pantalla de busquedas, **(6)** es la pantalla de mensajes privados y **(7)** es la pantalla de biblioteca.
+En la barra inferior, hay una lista de opciones, en donde la primera es la seleccionada ya que corresponde a la pantalla de inicio, luego **(5)** es la [**pantalla de busquedas**](#busqueda), **(6)** es la [**pantalla de mensajes privados**](#mensajes-privados) y **(7)** es la [**pantalla de biblioteca**](#biblioteca).
 
 ## Busqueda
 <img src="./assets/user/search.png">
@@ -53,7 +53,7 @@ En esta pantalla se mostrara la canción que se esta reproduciendo, ademas de la
 
 En la primera pantalla se muestra la información de tu perfil, ademas de 4 opciones las cuales son:
   + **(1)** Editar perfil: Ingresar a la pantalla de edición de perfil.
-  + **(2)** Entrar en modo artista: Lo cual te permitira subir canciones y albumes a la plataforma.
+  + **(2)** [**Entrar en modo artista**](#perfil-del-artista): Lo cual te permitira subir canciones y albumes a la plataforma.
   + **(3)** Ver la wallet: En donde podras ver informacion de la wallet como el balance y las transacciones realizadas.
   + **(4)** Cerrar sesión
 La segunda pantalla es la pantalla de edición de perfil, en donde podras editar tu nombre de usuario, nombre, apellido y foto. Ademas, presionando el boton de configuración, podras entrar a la tercera pantalla en donde podras modificar correo electronico y contraseña.
@@ -68,3 +68,22 @@ En esta pantalla se vera la información de tu suscripcion actual, ademas de la 
 
 En la primera pantalla, se ve el perfil de un artista el cual es posible seguirlo y enviarle un mensaje, ademas de una lista de todo los contenidos que tiene.
 En la segunda pantalla, se ve la vista de un album, en donde se ve informacion basica como titulo, artista, puntajes y una lista de todas las canciones que contiene. Ademas se puede agregar a favoritos presionando la estrella de favoritos al lado de la información, y dejar un comentario o un puntaje en la parte inferior.
+
+## Perfil del artista
+<p align="center">
+  <img src="./assets/user/artistProfile.png" width="400">
+</p>
+
+Esta pantalla se accede luego de entrar al modo artista, aca se listan los albumes que tenes subidos, a los cuales podes acceder para editar su informacion y/o agregar canciones. Ademas podes editar tu perfil o volver al modo usuario.
+En la barra inferior, hay una lista de opciones, en donde la primera es la seleccionada ya que corresponde a esta pantalla de perfil del artista **(1)**, luego **(2)** es la [**pantalla de nuevo album**](#nuevo-album) y **(3)** es la [**pantalla de verificación de artista**](#verificación-de-artista).
+
+## Nuevo album
+<img src="./assets/user/newAlbum.png">
+
+En esta pantalla se podra crear un nuevo album ingresando la informacion basica como titulo, descripcion, genero, tipo de suscripcion y foto de portada. Ademas se puede agregar canciones al album presionando el boton de nueva cancion.
+Cada canción del album tendra titulo, descripcion y una lista de colaboradores, en caso de que no se quiera agregar ningun colaborador, se puede dejar vacio.
+
+## Verificación de artista
+<img src="./assets/user/verify.png">
+
+En esta pantalla se podra subir un video para ser verificado en la plataforma, luego este sera analizado por un administrador y se le aceptara o se rechazara. En caso de ser aceptado, pasaras a ser un artista verificado y se podra ver un ✓ en tu perfil, en el caso contrario, podras subir un nuevo video.
